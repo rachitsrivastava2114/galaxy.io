@@ -1,0 +1,31 @@
+@import url(./all_section_css/font.css);  /*FONTS*/
+
+@import url(./all_section_css/universal.css); 
+
+@import url(./all_section_css/navbar.css); /* Navbar */
+
+@import url(./all_section_css/homepage.css);  /* Homepage 1 */
+
+@import url(./all_section_css/sun.css);   /* SUN 2 */
+
+@import url(./all_section_css/mercury.css);   /* MERCURY 3 */
+
+@import url(./all_section_css/venus.css);   /* VENUS 4 */
+
+@import url(./all_section_css/earth.css);   /* EARTH 5 */
+
+@import url(./all_section_css/mars.css);     /*MARS 6*/
+
+@import url(./all_section_css/jupiter.css);   /* JUPITER 7 */
+
+@import url(./all_section_css/saturn.css);   /* SATURN 8 */
+
+@import url(./all_section_css/uranus.css);   /* URANUS 9 */
+
+@import url(./all_section_css/neptune.css);   /* NEPTUNE 10 */
+
+@import url(./all_section_css/footer.css);   /* Footer 11 */
+
+html{
+    scroll-behavior: smooth;
+}

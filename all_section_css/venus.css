@@ -1,0 +1,136 @@
+.venusslide{
+    justify-content: space-between;
+}
+.venus-text{
+    padding: 0rem 0rem 0rem 5rem;
+    color: white;
+    width: 80%;
+}
+.venus-text h1{
+    font-family: Orbitron-black;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 200%;
+}
+.venus-text p{
+    font-family: Inter Regular;
+    font-size: 22px;
+    font-weight: 500;
+}
+.venus{
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.venusinfo{
+    width: 400px;
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .venusslide {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .venus-text {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .venus-text h1 {
+        font-size: 6vw;
+    }
+    .venus-text p {
+        font-size: 3vw;
+    }
+    .venus {
+        height: 50%;
+    }
+    .venusinfo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .venusslide {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .venus-text {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .venus-text h1 {
+        font-size: 6vw;
+    }
+    .venus-text p {
+        font-size: 3vw;
+    }
+    .venus {
+        height: 50%;
+    }
+    .venusinfo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .venusslide {
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    .venus-text {
+        padding: 0 0 0 3rem;
+        width: 80%;
+    }
+    .venus-text h1 {
+        font-size: 5vw;
+    }
+    .venus-text p {
+        font-size: 2vw;
+    }
+    .venus {
+        height: 80vh;
+    }
+    .venusinfo {
+        width: 350px;
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .venusslide {
+        justify-content: space-between;
+        gap: 5rem;
+    }
+    .venus-text {
+        padding: 0 0 0 5rem;
+        width: 80%;
+    }
+    .venus-text h1 {
+        font-size: 60px;
+    }
+    .venus-text p {
+        font-size: 22px;
+    }
+    .venus {
+        height: 100vh;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .venusinfo {
+        width: 400px;
+    }
+}
+

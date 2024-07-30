@@ -1,0 +1,87 @@
+.neptune-text{
+    color: white;
+    text-align: center;
+}
+.neptune-text h1{
+    font-family: Orbitron-black;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 200%;
+}
+.neptune-text p{
+    font-family: Inter Regular;
+    font-size: 20px;
+    font-weight: 500;
+}
+.neptuneinfo{
+    color: white;
+    height: 12rem;
+    display: flex;
+    margin: 2rem 0 0 0;
+    gap: 24px;
+    justify-content: center;
+}
+.neptune{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .neptune-text h1 {
+        font-size: 8vw;
+    }
+    .neptune-text p {
+        font-size: 5vw;
+    }
+    .neptuneinfo {
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .neptune-text h1 {
+        font-size: 6vw;
+    }
+    .neptune-text p {
+        font-size: 4vw;
+    }
+    .neptuneinfo {
+        flex-direction: column;
+        height: auto;
+        width: 40%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .neptune-text h1 {
+        font-size: 5vw;
+    }
+    .neptune-text p {
+        font-size: 3vw;
+    }
+    .neptuneinfo {
+        height: 10rem;
+       
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .neptune-text h1 {
+        font-size: 4vw;
+    }
+    .neptune-text p {
+        font-size: 2.5vw;
+    }
+    .neptuneinfo {
+        height: 12rem;
+    }
+}

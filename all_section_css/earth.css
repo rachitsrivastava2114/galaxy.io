@@ -1,0 +1,245 @@
+.earthslide{
+    height: 30vh;
+    display: flex;
+    padding: 1rem 5rem 0 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.earth-text{
+    color: white;
+}
+.earth-text h1{
+    font-family: Orbitron-black;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 200%;
+}
+.earth-text p{
+    font-family: Inter Regular;
+    font-size: 21px;
+    font-weight: 500;
+}
+.rocket{
+    position: absolute;
+    width: 181.99px;
+    height: 186.89px;
+    top: 425px;
+    left: 0px;
+}
+.moon-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moon_image{
+    width: 10%;
+    position: relative;
+    top: 100px;
+    right: 20px;
+}
+.moon-text h1{
+    font-family: Orbitron-black;
+    font-size: 3.652777777777778vw;
+    font-weight: 900;
+    line-height: 200%;
+}
+.moon-text p{
+    font-family: Inter Regular;
+    font-size: 21px;
+    font-weight: 500;
+}
+.arrow{
+    height: 20vh;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.effect{
+    position: absolute;
+    bottom: 0px;
+    width: 70vw;
+}
+.earth{
+    position: absolute;
+    bottom: 0px;
+    width: 60vw;
+    z-index: -1;
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .earthslide {
+        padding: 1rem 3rem;
+        height: auto;
+    }
+    .earth-text h1 {
+        font-size: 40px;
+    }
+    .earth-text p {
+        font-size: 16px;
+    }
+    .rocket {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        bottom: 30px;
+        left: 0;
+        z-index: -1;
+    }
+    .moon_image {
+        width: 20%;
+        height: 11%;
+        position: relative;
+        top: 40px;
+        right: 30px;
+    }
+    .mooninfo{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .moon-text h1 {
+        font-size: 28px;
+    }
+    .moon-text p {
+        font-size: 14px;
+    }
+    .effect, .earth {
+        width: 90%;
+    }
+    .arrow {
+        height: 30%;
+        width: 30%;
+        margin-left: 20px;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .earthslide {
+        padding: 1rem 3rem;
+        height: auto;
+    }
+    .earth-text h1 {
+        font-size: 40px;
+    }
+    .earth-text p {
+        font-size: 2vw;
+    }
+    .rocket {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: auto;
+        left: auto;
+    }
+    .moon_image {
+        width: 20%;
+        height: 11%;
+        position: relative;
+        top: 90px;
+        right: 50px;
+    }
+    .mooninfo{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .moon-text h1 {
+        font-size: 4vw;
+    }
+    .moon-text p {
+        font-size: 20px;
+    }
+    .effect, .earth {
+        width: 80%;
+    }
+    .arrow {
+        height: 18vh;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .earthslide {
+        padding: 1rem 3rem;
+        height: auto;
+    }
+    .earth-text h1 {
+        font-size: 3vw;
+    }
+    .earth-text p {
+        font-size: 2vw;
+    }
+    .rocket {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        top: auto;
+        left: auto;
+    }
+    .moon_image {
+        width: 11%;
+        height: 11%;
+        position: relative;
+        top: 90px;
+        right: 50px;
+    }
+    .mooninfo{
+        justify-content: center;
+        width: 100%;
+    }
+    .moon-text h1 {
+        font-size: 4vw;
+    }
+    .moon-text p {
+        font-size: 20px;
+    }
+    .effect, .earth {
+        width: 50%;
+    }
+    .arrow {
+        height: 18vh;
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .earthslide {
+        padding: 1rem 5rem;
+    }
+    .earth-text h1 {
+        font-size: 32px;
+    }
+    .earth-text p {
+        font-size: 1.5vw;
+    }
+    .rocket {
+        position: absolute;
+        width: 181.99px;
+        height: 186.89px;
+        top: 425px;
+        left: 0px;
+    }
+    .moon_image {
+        width: 8%;
+        height: 8%;
+        position: relative;
+        top: 100px;
+        right: 30px;
+    }
+    .moon-text h1 {
+        font-size: 3.652777777777778vw;
+    }
+    .moon-text p {
+        font-size: 20px;
+    }
+    .effect, .earth {
+        width: 70vw;
+    }
+    .arrow {
+        height: 20vh;
+    }
+}

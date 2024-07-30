@@ -1,0 +1,157 @@
+.jupiter-text{
+    color: white;
+ 
+}
+.jupiter-text h1{
+    font-family: Orbitron-black;
+    font-size: 4.652777777777778vw;
+    font-weight: 900;
+    line-height: 200%;
+}
+.jupiter-text p{
+    font-family: Inter Regular;
+    font-size: 1.1111111111111112vw;
+    font-weight: 500;
+}
+.jupiterinfo{
+    margin: 6rem 0 0 6rem;
+    color: white;
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+@media (min-width:1440px) {
+    .jupiter-text{
+        
+        margin-left: 6rem;
+    }
+    .jupiter{
+        width: 751.48px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+}
+/* Small Mobile */
+@media (max-width: 480px) {
+    .jupiter-text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .jupiter-text h1 {
+        font-size: 6vw;
+    }
+    .position{
+        align-items: center;
+    }
+    .jupiter-text p {
+        font-size: 4vw;
+    }
+    .jupiterinfo {
+        margin: 2rem 0 0 0;
+        width: 80%;      
+        flex-direction: row;
+        justify-content: center;
+    }
+    .jupiter {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        rotate: 90deg;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .jupiter-text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .jupiter-text h1 {
+        font-size: 6vw;
+    }
+    .position{
+        align-items: center;
+    }
+    .jupiter-text p {
+        font-size: 4vw;
+    }
+    .jupiterinfo {
+        margin: 2rem 0 0 0;
+        width: 80%;      
+        flex-direction: row;
+        justify-content: center;
+    }
+    .jupiter {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        rotate: 90deg;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .jupiter-text {
+        margin-left: 3rem;
+        text-align: left;
+    }
+    .jupiter-text h1 {
+        font-size: 5vw;
+    }
+    .jupiter-text p {
+        font-size: 3vw;
+    }
+    .jupiterinfo {
+        margin: 5rem 0 0 3rem;
+        width: 25%;
+        align-content: start;
+    }
+    .jupiter {
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        rotate: 90deg;
+       
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .jupiter-text {
+        margin-left: 6rem;
+        text-align: left;
+    }
+    .jupiter-text h1 {
+        font-size: 50px;
+    }
+    .jupiter-text p {
+        font-size: 20px;
+        width: 50%;
+    }
+    .jupiterinfo {
+        margin: 6rem 0 0 6rem;
+        width: 25%;
+        align-content: start;
+    }
+    .jupiter {
+        position: absolute;
+        width: 751.48px;
+        height: 751.48px;
+        top: 0;
+        right: 0;
+        transform: none;
+    }
+}

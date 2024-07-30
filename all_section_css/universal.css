@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: ; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 99.99vw!important;
+    overflow-x: hidden;
+}
+
+.zindex_-1{
+    z-index: -1;
+}
+
+.flex{
+    display: flex;
+}
+.flex_direction{
+    flex-direction: column;
+}
+.jc_center{
+    justify-content: center;
+}
+.ai_center{
+    align-items: center;
+}
+.fr_col{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+.mar-top-3rem{
+    margin-top: 3rem;
+}
+.text_align_right{
+    text-align: right;
+}
+.full_occ{
+    height: 100%;
+    width: 100%;
+}

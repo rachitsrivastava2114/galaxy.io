@@ -1,0 +1,203 @@
+@import url(./basic_slide_struc.css);
+@import url(./font.css);
+
+.vector1, .vector2, .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
+    position: absolute;
+    z-index: -1;
+}
+
+.vector1 {
+    width: 727px;
+    height: 468px;
+    bottom: 0;
+    left: 0;
+}
+.vector2 {
+    width: 727px;
+    height: 468px;
+    top: 0;
+    right: 0;
+}
+.pic1 {
+    height: 247.22px;
+    top: 98px;
+    left: 0;
+}
+.pic2 {
+    height: 547.06px;
+    top: 349px;
+    left: 0;    
+}
+.pic3 {
+    bottom: 0;
+    left: 0;
+}
+.pic4 {
+    bottom: 0;
+    left: 584px;
+}
+.pic5 {
+    bottom: 0;
+    right: 0;
+}
+.pic6 {
+    height: 435.74px;
+    top: 111px;
+    right: 0;
+}
+.pic7 {
+    height: 144.85px;
+    top: 134px;
+    left: 733px;
+}
+.pic8 {
+    height: 62.69px;
+    top: 466.96px;
+    left: 263.28px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure the hero section is above the images */
+}
+.hero h1 {
+    font-family: Orbitron-black;
+    font-size: 6.25vw;
+    font-weight: 900;
+}
+.hero p {
+    margin-top: 3%;
+    font-family: Inter Regular; 
+    font-size: 1.1111111111111112vw;
+    font-weight: 500;
+}
+.hero button {
+    height: 11.5vh;
+    width: 17vw;
+    margin-top: 3rem;
+    background: linear-gradient(to bottom right, #2500FF 10%, #FF0004 80%, #CD1013 100%);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-family: Orbitron-medium;
+    font-size: 1.458vw;
+}
+.hero button:hover {
+    opacity: 0.8;
+}
+/* Small Mobile */
+@media (max-width: 480px) {
+    .wrapper{
+        width: 100%;
+    }
+    .pic7{
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 0px;
+    }
+    .pic8{
+        top: 10px;
+        left: 20px;
+    }
+    .hero{
+        width: 80%;
+        
+    }
+    .hero h1 {
+        font-family: Orbitron-black;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .hero p {
+        margin-top: 3%;
+        color: white;
+        font-family: Inter bold; 
+        font-size: 25px;
+        font-weight: 800;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .wrapper{
+        width: 100%;
+        
+    }
+    .pic7{
+        left: 270px;
+    }
+    .pic8{
+        top: 350px;
+    }
+    .hero{
+        width: 80%;
+    }
+    .hero h1 {
+        font-family: Orbitron-black;
+        font-size: 60px;
+        font-weight: 900;
+    }
+    .hero p {
+        margin-top: 3%;
+        font-family: Inter Regular; 
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .wrapper{
+        width: 100%;
+        
+    }
+    .pic7{
+        left: 450px;
+    }
+    .hero{
+        width: 80%;
+    }
+    .hero h1 {
+        font-family: Orbitron-black;
+        font-size: 80px;
+        font-weight: 900;
+    }
+    .hero p {
+        margin-top: 3%;
+        font-family: Inter Regular; 
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .wrapper{
+        width: 100%;
+        
+    }
+    .hero{
+        width: 80%;
+    }
+    .hero h1 {
+        font-family: Orbitron-black;
+        font-size: 80px;
+        font-weight: 900;
+    }
+    .hero p {
+        margin-top: 3%;
+        font-family: Inter Regular; 
+        font-size: 25px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,231 @@
+.marsslide{
+    margin: 3rem;
+    justify-content: space-around;
+}
+.mars-text{
+    color: white;
+    width: 130%;
+}
+.mars-text h1{
+    font-family: Orbitron-black;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 200%;
+}
+.mars-text p{
+    font-family: Inter Regular;
+    font-size: 1.1111111111111112vw;
+    font-weight: 500;
+}
+.infomars{
+    color: white;
+    width: 350px;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.temperature{
+    margin-bottom: 15%;
+}
+.mars{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60%;
+    z-index: -1;
+}
+
+.martin-text h1{
+    font-family: Orbitron-black;
+    font-size: 2.652777777777778vw;
+    font-weight: 900;
+    line-height: 200%;
+}
+.martin-text p{
+    font-family: Inter Regular;
+    font-size: 1.1111111111111112vw;
+    font-weight: 500;
+}
+.martin-text{
+    color: white;
+    position: absolute;
+    width: 30%;
+}
+.arrow2{
+    width: 71.41px;
+    height: 58.84px;
+    position: absolute;
+}
+
+@media (min-width:1440px) {
+    .martin-text{
+        color: white;
+        position: absolute;
+        width: 30%;
+        left: 561.41px;
+        top: 393.84px;
+    }
+    .arrow2{
+        width: 71.41px;
+        height: 58.84px;
+        position: absolute;
+        top: 335px;
+        left: 490px;
+    }
+}
+/* Small Mobile */
+@media (max-width: 480px) {
+    .marsslide {
+        margin: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mars-text h1 {
+        font-size: 6vw;
+    }
+    .mars-text p {
+        font-size: 4vw;
+    }
+    .infomars {
+        width: 90%;
+    }
+    .mars {
+        height: 40%;
+    }
+    .martin-text {
+        left: 10%;
+        top: 50%;
+        transform: translate(-10%, -50%);
+    }
+    .martin-text h1 {
+        font-size: 5vw;
+    }
+    .martin-text p {
+        font-size: 4vw;
+    }
+    .arrow2 {
+        width: 50px;
+        height: 40px;
+        top: 45%;
+        left: 20%;
+        transform: translate(-20%, -45%);
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .marsslide {
+        margin: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mars-text h1 {
+        font-size: 5vw;
+    }
+    .mars-text p {
+        font-size: 3vw;
+    }
+    .infomars {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 10px;
+    }
+    .mars {
+        height: 50%;
+    }
+    .martin-text {
+        right: 5%;
+        bottom: 5%;
+    
+    }
+    .martin-text h1 {
+        font-size: 4.5vw;
+    }
+    .martin-text p {
+        font-size: 3.5vw;
+    }
+    .arrow2 {
+        width: 60px;
+        height: 50px;
+        bottom: 40%;
+        right: 40%;
+        transform: translate(-25%, -40%);
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .marsslide {
+        margin: 2.5rem;
+    }
+    .mars-text h1 {
+        font-size: 4vw;
+    }
+    .mars-text p {
+        font-size: 2.5vw;
+    }
+    .infomars {
+        width: 70%;
+    }
+    .mars {
+        height: 55%;
+    }
+    .martin-text {
+        right: 0%;
+        bottom: 0%;
+        width: 60%;
+    }
+    .martin-text h1 {
+        font-size: 4vw;
+    }
+    .martin-text p {
+        font-size: 2.5vw;
+    }
+    .arrow2 {
+        width: 65px;
+        height: 55px;
+        right: 40%;
+        bottom: 15%;
+        rotate: 30deg;
+        display: hidden;
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .marsslide {
+        margin: 3rem;
+    }
+    .mars-text h1 {
+        font-size: 4rem;
+    }
+    .mars-text p {
+        font-size: 2vw;
+    }
+    .infomars {
+        width: 60%;
+    }
+    .mars {
+        height: 60%;
+    }
+    .martin-text {
+        left: 42%;
+        top: 50%;
+
+    }
+    .martin-text h1 {
+        font-size: 3vw;
+    }
+    .martin-text p {
+        font-size: 2vw;
+    }
+    .arrow2 {
+        width: 70px;
+        height: 58px;
+        top: 47%;
+        left: 40%;
+        transform: translate(-40%, -50%);
+    }
+}

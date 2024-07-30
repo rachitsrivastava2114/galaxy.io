@@ -1,0 +1,127 @@
+
+.page_body{
+    height: 120vh;
+    background:radial-gradient(at top right ,#400A46 0%,#340A41 25%,#140A35 75%,#100A33 100%);
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+.star_background{
+    width: 100%;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    z-index: -1;
+}
+.page_small_body{
+    height: 100vh;
+    background:radial-gradient(at top right ,#400A46 0%,#340A41 25%,#140A35 75%,#100A33 100%);
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+.page_footer_body{
+    height: 75vh;
+    width: 100%;
+    background:#100A33 ;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+.info {
+    padding: 24px 40px 24px 40px;
+    gap: 24px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(at bottom right ,#400A46 0%,#340A41 25%,#140A35 75%,#100A33 100%);
+    border: 4px solid #430E49;
+}
+.info h2{
+    font-family: orbitron-light;
+    font-size: 20px;
+    font-weight: 900;
+}
+.info h4{
+    font-family: orbitron-black;
+    font-size: 40px;
+    font-weight: 900;
+}
+.info>div{
+    color: white;
+}
+/* Small Mobile */
+@media (max-width: 480px) {
+    .info {
+        padding: 16px 14px;
+        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info h2 {
+        font-size: 12px;
+    }
+    .info h4 {
+        font-size: 18px;
+    }
+    .info>img{
+        height: 20%;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .info {
+        padding: 20px 22px;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .info h2 {
+        font-size: 16px;
+    }
+    .info h4 {
+        font-size: 22px;
+    }
+    .info>img{
+        height: 40%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .info {
+        
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+    .info h2 {
+        font-size: 18px;
+    }
+    .info h4 {
+        font-size: 28px;
+    }
+    .info>img{
+        height: 40%;
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .info {
+        padding: 24px 30px;
+        gap: 24px;
+    }
+    .info h2 {
+        font-size: 20px;
+    }
+    .info h4 {
+        font-size: 40px;
+    }
+}

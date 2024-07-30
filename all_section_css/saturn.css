@@ -1,0 +1,132 @@
+.saturnslide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.saturn{
+    width: 100%;
+    z-index: -1;
+}
+.saturn-text{
+    color: white;
+    text-align: right;
+    padding-right: 9rem;
+    margin: 1rem 6rem 2rem 0;
+}
+.saturn-text h1{
+    font-family: Orbitron-black;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 200%;
+}
+.saturn-text p{
+    font-family: Inter Regular;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.saturninfo{
+    color: white;
+    width: 352px;
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .saturn-text {
+        text-align: center;
+        margin: 0 0rem 2rem 0rem;
+    }
+    .saturn-text h1 {
+        font-size: 50px;
+    }
+    .saturn-text p {
+        font-size: 16px;
+        width: 95%;
+    }
+    .saturninfo {
+        width: 50%;
+
+    }
+
+    .saturn {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/* Large Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .saturn-text {
+        text-align: center;
+        margin: 0 0rem 2rem 0rem;
+    }
+    .saturn-text h1 {
+        font-size: 50px;
+    }
+    .saturn-text p {
+        font-size: 20px;
+        width: 95%;
+    }
+    .saturninfo {
+        width: 352px;
+    }
+
+    .saturn {
+        position: absolute;
+        width: 90%;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .saturn-text {
+        text-align: right;
+        margin: 1rem 2rem 2rem 0;
+    }
+    .saturn-text h1 {
+        font-size: 50px;
+    }
+    .saturn-text p {
+        font-size: 20px;
+    }
+    .saturninfo {
+        width: 352px;
+    }
+    .saturn {
+        width: 50%;
+       
+    }
+    .saturn_positioner{
+        align-items: center ;
+
+    }
+}
+
+/* Large Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .saturn-text {
+        text-align: right;
+        margin: 1rem 2rem 2rem 0;
+    }
+    .saturn-text h1 {
+        font-size: 50px;
+    }
+    .saturn-text p {
+        font-size: 20px;
+    }
+    .saturninfo {
+        width: 352px;
+    }
+    .saturn {
+        width: 50%;
+        
+    }
+    .saturn_positioner{
+        align-items: center ;
+    }
+}
